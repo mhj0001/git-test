@@ -19,5 +19,11 @@ public class Controller {
 		System.out.println("-- Request Finish !!");
 	}
 	
+	@RequestMapping(value="/test", method=GET)
+	public void push2(){
+		System.out.println("-- Request Accept !!");
+		test.push();
+		System.out.println("-- Request Finish !!");
+	}
 
 }
