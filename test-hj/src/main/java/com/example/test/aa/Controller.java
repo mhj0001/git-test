@@ -60,4 +60,11 @@ public class Controller {
 		test.push();
 		System.out.println("-- Request Finish !!");
 	}
+	
+	@RequestMapping(value="push8", method=GET)
+	public void push8(){
+		System.out.println("-- Request Accept !!");
+		test.push();
+		System.out.println("-- Request Finish !!");
+	}
 }
